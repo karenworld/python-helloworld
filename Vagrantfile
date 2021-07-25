@@ -1,5 +1,8 @@
+# set up the default terminal
+ENV["TERM"]="linux"
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
+
 
 # All Vagrant configuration is done below. The "2" in Vagrant.configure
 # configures the configuration version (we support older styles for
@@ -20,6 +23,7 @@ Vagrant.configure("2") do |config|
   # config.vm.box_check_update = false
     # set the image for the vagrant box
    config.vm.box = "opensuse/Leap-15.2.x86_64"
+   config.vm.box_version = "15.2.31.212"
 
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
