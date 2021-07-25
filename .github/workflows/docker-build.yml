@@ -11,8 +11,6 @@ on:
     branches: [ master, main ]
   pull_request:
     branches: [ master, main ]
-on:
-  [push, pull_request]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -46,4 +44,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: tinker/python-helloworld:latest
+          tags: tangara/python-helloworld:latest
