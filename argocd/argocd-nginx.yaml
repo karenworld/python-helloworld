@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     # path to the folder with the YAML manifests
-    path: python-helloworld/manifests
+    path: manifests
     repoURL: https://github.com/karenworld/python-helloworld 
     targetRevision: HEAD
   # Sync policy
